@@ -10,5 +10,19 @@ package remidi.quiz;
  * @author user
  */
 public class Pembeli {
+    private String nama;
+
+    public Pembeli(String nama) {
+        this.nama = nama;
+    }
+
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+    
     
 }
